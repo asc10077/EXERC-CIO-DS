@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>heart break is one think, my ego is another</title>
+</head>
+<body>
+    
+    <script>
+        document.write("<h2>"+document.title+"<h2>");
+    </script>
+    <button type="button" onclick="alert('motherfucker')">I bag you don't embrace me</button>
+    <p id="paragrafo">I have a fun idea, babe</p>
+    <script>
+        function mFuncao() {
+            var x = document.getElementById("paragrafo");
+            x. innerHTML="Hello!":
+        }
+    </script>
+    <button type="button" on click="mFuncao();"> maybe just stay insade</button>
+    <script>
+        function trocaImagem() {
+            var elemento=document.getElementById("myImage");
+            if (elemento.src.match("bulboff")) {
+                elemento.src="https://upload.wikimedia.org/wikipedia/commons/d/df/Sabrina_Carpenter_2019.jpg";
+            } else{
+                elemento.src="https://upload.wikimedia.org/wikipedia/commons/d/df/Sabrina_Carpenter_2019.jpg";
+            }
+        }
+    </script>
+    <p><img id="myImage" onclick="trocaImagem()"
+    scr="https://upload.wikimedia.org/wikipedia/commons/d/df/Sabrina_Carpenter_2019.jpg" width="100" height="180"></p>
+    <p>Clique na lampada para ligar/desligar a luz</p>
+</body>
+</html>
